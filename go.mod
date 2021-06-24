@@ -1,7 +1,8 @@
-module example.go
+module github.com/NotInTheSubject/prowler-example
 
 go 1.16
 
-replace github.com/NotInTheSubject/prowler => /workspaces/prowler/
-
-require github.com/NotInTheSubject/prowler v0.0.0-20210617135022-c0a7464fa059 // indirect
+require (
+	github.com/NotInTheSubject/prowler v0.0.0-20210624061802-2216d8d626d1
+	github.com/sirupsen/logrus v1.8.1
+)
